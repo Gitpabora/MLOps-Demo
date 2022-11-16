@@ -26,10 +26,3 @@ python-version: ${{ matrix.python-version }}
 - name: Install dependencies
 run: |
 make install
-
-- name: check the python code
-run: |
-make lint 
-
-- name: run unit test
-run: |
