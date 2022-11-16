@@ -3,3 +3,4 @@ make
 pylint
 pytest-cov
 pandas
+scikit-learn
